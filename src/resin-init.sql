@@ -35,10 +35,10 @@ CREATE INDEX IF NOT EXISTS "api_key_key_idx"
 ON "api key" ("key");
 
 CREATE INDEX IF NOT EXISTS "application_device_type_idx"
-ON "application" ("device type");
+ON "application" ("is for-device type");
 
 CREATE INDEX IF NOT EXISTS "device_device_type_idx"
-ON "device" ("device type");
+ON "device" ("is-device type");
 
 CREATE INDEX IF NOT EXISTS "image_is_stored_at_image_location_idx"
 ON "image" ("is stored at-image location");
